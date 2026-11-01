@@ -1,0 +1,11 @@
+# weights and outputs stay out of git (README.md, "Models")
+models/
+.tmp/
+barktrace/runs/
+# third-party clones (setup_third_party.sh) and the lab's BEATs SED folder
+third_party/LVMT
+third_party/detectron2
+third_party/beats_sed
+*.log
+__pycache__/
+*.pyc
